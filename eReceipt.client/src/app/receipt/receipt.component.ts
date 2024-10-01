@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ReceiptService } from '../receipt.service';
-import { CommonModule } from '@angular/common';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
 @Component({
