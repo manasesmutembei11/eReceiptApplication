@@ -1,0 +1,4 @@
+<div class="invoice-container">
+    <div [innerHTML]="invoice" class="invoice-content"></div>
+    <button (click)="$event.preventDefault(); downloadInvoice()" class="download-button">Download Invoice</button>
+</div>

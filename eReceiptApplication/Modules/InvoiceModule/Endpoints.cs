@@ -23,6 +23,7 @@ public class Endpoints : ICarterModule
             return Results.Text(html, "text/html");
 
         });
+        
         app.MapGet("api/download", async (InvoiceFactory invoiceFactory) =>
         {
             Invoice invoice = invoiceFactory.Create();
